@@ -1,0 +1,35 @@
+.chat {
+  min-height: 400px;
+  height: 80%;
+}
+
+.send-button {
+  height: 100%;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px;
+}
+
+.message {
+  padding: 6px;
+  background-color: #00000052;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.message-text {
+  font-size: 0.9rem;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.message-input {
+  padding: 8px 6px;
+  font-size: 0.9rem;
+}

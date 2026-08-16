@@ -1,0 +1,1 @@
+export { openWaitingPlayers } from './ui/waiting-players';

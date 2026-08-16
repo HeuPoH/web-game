@@ -1,0 +1,33 @@
+:root {
+  --font-main: 'Courier New', Courier, 'VT323', monospace;
+
+  --orange_1: #f97316;
+  --orange_2: #eab308;
+
+  --green_1: #10b981;
+  --green_2: #14b8a6;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(22, 33, 62);
+  font-family: var(--font-main);
+  color: var(--ant-color-white);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  outline: none !important;
+  scrollbar-color: #000000 transparent;
+}
+
+.ant-btn-icon {
+  display: flex;
+}
+
+input:focus {
+  box-shadow: none !important;
+}

@@ -1,0 +1,19 @@
+.actions-panel {
+  display: flex;
+  row-gap: 4px;
+  padding: 4px;
+  gap: 10px;
+  height: 50px;
+  border-top: 2px solid rgba(6, 182, 212, 0.5);
+  overflow: auto;
+}
+
+.action-panel-item {
+  flex: 1;
+  height: 40px;
+}
+
+.coldown {
+  position: absolute;
+  color: rgb(249, 115, 22);;
+}

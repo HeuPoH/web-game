@@ -1,0 +1,21 @@
+.game-header {
+  padding: 8px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.5);
+  background-color: rgba(17, 24, 39, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.game-header-text {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.chat-button-status {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}

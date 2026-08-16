@@ -1,0 +1,29 @@
+.card {
+  border-radius: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+  animation: shake 0.5s ease-in-out infinite alternate;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+@keyframes shake {
+  from { transform: rotate(-5deg); }
+  to { transform: rotate(5deg); }
+}

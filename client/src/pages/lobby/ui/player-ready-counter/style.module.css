@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  padding: 16px;
+  background: linear-gradient(90deg, rgba(138, 43, 226, 0.2) 0%, rgba(219, 112, 147, 0.2) 100%);
+  border: 1px solid rgba(138, 43, 226, 0.3);
+  border-radius: 16px;
+  text-align: center;
+}

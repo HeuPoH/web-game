@@ -1,0 +1,32 @@
+.pink-button {
+  background: linear-gradient(to right, var(--ant-purple), var(--ant-pink));
+  color: var(--ant-color-white);
+  transition: 0.3s;
+}
+
+.pink-button:disabled {
+  color: rgb(131, 131, 131);
+}
+
+.pink-button:not(:disabled):hover {
+  background: linear-gradient(to right, #d946ef, #f43f5e);
+  color: var(--ant-color-white);
+}
+
+.orange-button {
+  background: linear-gradient(to right, var(--orange_1), var(--orange_2));
+  color: var(--ant-color-white);
+}
+
+.orange-button:hover {
+  background: linear-gradient(to right, #c2410c, #a16207);
+}
+
+.green-button {
+  background: linear-gradient(to right, var(--green_1), var(--green_2));
+  color: var(--ant-color-white);
+}
+
+.green-button:hover {
+  color: var(--ant-color-white) !important;
+}

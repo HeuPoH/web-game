@@ -1,0 +1,44 @@
+.players {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.players-header {
+  display: flex;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.player-avatar {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.player-status {
+  font-size: 11px;
+}
+
+.player-online-status {
+  color: rgb(16, 185, 129);
+}
+
+.player-offline-status {
+  color: rgb(245, 158, 11);
+}
+
+.player-disconnected-icon {
+  font-size: 1.2rem;
+  color: #ffffff;
+}

@@ -1,0 +1,9 @@
+.title {
+  color: var(--ant-color-white);
+  text-align: center;
+  overflow: hidden;
+}
+
+.center {
+  justify-content: center;
+}

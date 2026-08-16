@@ -1,0 +1,46 @@
+.queue-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px 6px 6px 6px;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.5);
+  font-size: 0.875rem; 
+}
+
+.queue-actions {
+  display: flex;
+  column-gap: 6px;
+  overflow-x: auto;
+  height: 40px;
+  overflow: hidden;
+}
+
+.queue-actions-item {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 6px;
+}
+
+.empty-action-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #64748b;
+  flex: 1;
+  font-size: 0.875rem; 
+}
+
+.delete-icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  cursor: pointer;
+  color: #f87171; 
+}

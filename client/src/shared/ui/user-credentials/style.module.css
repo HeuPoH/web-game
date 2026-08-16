@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--ant-color-white);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: .875rem;
+  color: #9ca3af;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.field-label {
+  color: var(--ant-color-white);
+}
+
+.field-value {
+  flex: 1;
+  color: var(--ant-color-white);
+  word-break: break-all;
+  padding: var(--ant-padding-sm);
+  background-color: rgba(51, 65, 85, 0.5);
+  border-radius: var(--ant-border-radius-lg);
+  border: 1px solid #475569;
+}
+
+.copy-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--ant-color-white);
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: var(--ant-border-radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@game/shared-types",
+  "version": "1.0.0",
+  "description": "Общие TypeScript типы для игрового проекта",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --preserveWatchOutput",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["types", "game", "shared"],
+  "author": "Vadim Knyazev",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

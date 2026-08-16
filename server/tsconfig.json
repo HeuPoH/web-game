@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    // Разрешает компиляцию JavaScript-файлов
+    "allowJs": true,
+
+    // Обеспечивает совместимость импортов CommonJS и ES модулей
+    "esModuleInterop": true,
+
+    // Рассматривает каждый файл как отдельный модуль (важно для сборщиков)
+    "isolatedModules": true,
+
+    // Включает современные возможности ES (включая import/export)
+    "lib": ["ESNext"],
+
+    // Использовать систему модулей Node.js с поддержкой ES-модулей
+    // Это ключевая настройка для import/export в Node.js
+    "module": "NodeNext",
+
+    // Принудительное определение модульности (каждый файл — модуль)
+    "moduleDetection": "force",
+
+    // Запрещает неявное переопределение методов (полезно для ООП)
+    "noImplicitOverride": true,
+
+    // Запрещает неотмеченные индексированные обращения (для безопасности)
+    "noUncheckedIndexedAccess": true,
+
+    "rootDir": "./src",
+
+    // Папка для скомпилированных файлов
+    "outDir": "./build",
+
+    // Алиасы путей (например, ~/utils → ./src/utils)
+    "paths": {
+      "~/*": ["./src/*"],
+      "@game/shared-types": ["../packages/shared-types/src"],
+    },
+
+    // Позволяет импортировать JSON-файлы как модули
+    "resolveJsonModule": true,
+
+    // Пропускает проверку типов в node_modules (ускоряет компиляцию)
+    "skipLibCheck": true,
+
+    // Генерировать source map для отладки
+    "sourceMap": true,
+
+    // Включает все строгие проверки типов
+    "strict": true,
+
+    // Целевая версия ECMAScript (современная, поддерживает import/export)
+    "target": "ES2023",
+
+    // Сохраняет исходный синтаксис import/export в выходных файлах
+    // Не преобразует их в require (необходимо для ES-модулей)
+    "verbatimModuleSyntax": true
+  },
+  // Исключаем ненужные папки
+  "exclude": ["node_modules", "build"],
+  // Включаем все файлы из src
+  "include": ["src/**/*"]
+}

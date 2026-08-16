@@ -1,0 +1,82 @@
+.title {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.title-icon {
+  font-size: 1.6rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #e2e2e2;
+}
+
+.field-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-style: italic;
+  min-height: 16px;
+}
+
+.input {
+  border-radius: 12px;
+}
+
+.dice-btn {
+  color: #f97316;
+  padding: 0;
+  height: auto;
+  cursor: pointer;
+}
+
+.dice-btn:hover {
+  color: #fb923c;
+}
+
+.preview-card {
+  border-radius: 12px;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  background: rgba(51, 65, 85, 0.3);
+}
+
+.preview-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(168, 85, 247, 0.15);
+  border-radius: 10px;
+}
+
+.preview-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #e2e2e2;
+}
+
+.preview-meta {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+.buttons {
+  margin-top: auto;
+}

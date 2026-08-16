@@ -1,0 +1,12 @@
+.card {
+  max-width: 300px;
+  transition: all .2s;
+}
+
+.card:hover {
+  border-color: #046374;
+}
+
+.selected {
+  border-color: var(--ant-purple);
+}

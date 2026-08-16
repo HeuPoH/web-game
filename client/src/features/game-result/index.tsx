@@ -1,0 +1,1 @@
+export { openGameResult } from './ui/game-result';

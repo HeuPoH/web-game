@@ -1,0 +1,9 @@
+.page-container {
+  position: relative;
+  padding: 16px;
+  max-width: 896px;
+  margin: 0 auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}

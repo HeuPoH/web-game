@@ -1,0 +1,59 @@
+.action-forward {
+  background: rgba(59, 130, 246, 0.14);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.action-turn-left {
+  background: rgba(168, 85, 247, 0.14);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+}
+
+.action-turn-right {
+  background: rgba(236, 72, 153, 0.14);
+  border: 1px solid rgba(236, 72, 153, 0.2);
+}
+
+.action-backward {
+  background: rgba(16, 185, 129, 0.14);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.action-turn-around {
+  background: rgba(249,115,22,0.14);
+  border: 1px solid rgba(249, 116, 22, 0.2);
+}
+
+.action-build-wall {
+  background: rgba(99, 101, 241, 0.14);
+  border: 1px solid rgba(99, 101, 241, 0.2);
+}
+
+.action-destroy-wall {
+  background: rgba(131, 204, 22, 0.14);
+  border: 1px solid rgba(132,204,22,0.2);
+}
+
+.action-shove {
+  background: rgba(204, 22, 22, 0.14);
+  border: 1px solid rgba(204, 22, 22, 0.2);
+}
+
+.action-throw {
+  background: rgba(204, 171, 22, 0.14);
+  border: 1px solid rgba(204, 171, 22, 0.2);
+}
+
+.action-jump {
+  background: rgba(204, 22, 180, 0.14);
+  border: 1px solid rgba(204, 22, 180, 0.2);
+}
+
+.action-swap {
+  background: rgba(204, 22, 22, 0.14);
+  border: 1px solid rgba(204, 22, 22, 0.2);
+}
+
+.action-pull {
+  background: rgba(22, 177, 204, 0.14);
+  border: 1px solid rgba(22, 177, 204, 0.2);
+}

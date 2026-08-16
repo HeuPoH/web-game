@@ -1,0 +1,1 @@
+export { ChatStore } from './model/chat-store';
